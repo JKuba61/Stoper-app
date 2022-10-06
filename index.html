@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/245431f389.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Stoper/main.css">
+    <title>Stoper</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <p class="settings">
+            <i class="fas fa-question"></i>
+            <i class="fas fa-paint-brush"></i>
+        </p>
+
+        <div class="colors">
+            <div class="color c1"></div>
+            <div class="color c2"></div>
+            <div class="color c3"></div>
+        </div>
+
+        <h1>Stoper</h1>
+        <p class="stopwatch">0:00</p>
+        <p class="time">0:00</p>
+
+        <div class="buttons">
+            <button class="start"><i class="fas fa-play"></i></button>
+            <button class="pause"><i class="fas fa-pause"></i></button>
+            <button class="stop"><i class="fas fa-stop"></i></button>
+            <button class="reset"><i class="fas fa-times"></i></button>
+            <button class="history">history</button>
+        </div>
+
+        <ul class="time-list"></ul>
+
+    </div>
+
+    <div class="modal-shadow">
+        <div class="modal">
+            <h3>Instructions:</h3>
+            <p><i class="fas icon fa-play"></i> - start</p>
+            <p><i class="fas icon fa-pause"></i> - pause</p>
+            <p><i class="fas icon fa-stop"></i> - stop</p>
+            <p><i class="fas icon fa-times"></i> - clear the results (both history ones and present)</p>
+            <p><strong class="icon">history</strong> - show the previous results</p>
+
+
+            <button class="close">Close</button>
+        </div>
+    </div>
+
+    <script src="/Stoper/script.js"></script>
+</body>
+
+</html>
